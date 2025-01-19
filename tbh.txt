@@ -1,0 +1,219 @@
+only tbh---
+-----------------------
+workshop-1
+wdsr1060jy
+
+7-zip - extraction
+ransomware - dot pass
+things connected to internet - cyber 
+ip address - ifconfig
+mac address - getmac
+https://www.security.org/how-secure-is-my-password/ -> to check ur password strength
+for finding ip address -> https://www.nslookup.io/domains/bnmit.org/dns-records/
+proton mail
+https://stopify.co/showthread.php?location=PFTN09
+https://search.censys.io/
+Pegasus - only for govt
+https://www.startpage.com/
+https://protonvpn.com/support/official-linux-vpn-kali/
+sudo dpkg -i protonvpn-stable-release_1.0.3_all.deb
+sudo nano /etc/proxychains4.conf 
+https://whatismyipaddress.com/
+sudo apt-get install tor 
+service tor start 
+proxychains firefox
+nslookup bnmit.org
+ddos attack - 5 different ip and mac addresses sending 1000+ messages -> feels common
+dos -> 1000+ messages from a single ip and mac address 
+service tor stop
+bnmit.org : 443 //no error ://https : secure
+https://www.bnmit.org:80/
+call bombers ->
+nslookup ee.cet.ac.in
+./xerxes ipadd 80 //http ->80
+wafw00f
+whois bnmit.org   
+
+------------------
+Propublica
+science hub 
+dark web pages
+bbc tor mirror
+32 levelgame all linux
+sci-hub
+hidden answers
+searx
+facebook onion site
+riseup
+secmail
+25 best dark web sites 2023
+proxy server list - list of free proxy
+proxynova , ip with port
+proxy server list
+always use soc4
+add 5 diff ips -if u want 5 diff ip to change
+comment out dynamic
+open strict chain
+if it doesnt work //change strict to dynamic
+sudo apt install macchange   
+macchanger
+ip address found in eth0
+sudo macchanger -r eth0 
+if kali is on dual boot or single -then wlan0 //single boot 
+sudo ifconfig eth0 down
+sudo ifconfig eth0 up  //up the ntw
+sudo macchanger -p eth0
+sudo macchanger -s eth0
+[ERROR] Set device name: No such device
+sudo macchanger -m <macaddress> eth0 //before that down the ntw
+//now up the ntw
+//down change mac up the network
+wireshark //for http 
+acunetix
+php test vulnhub
+whois 
+using 3rd party
+site:w3schools.com
+hidden login pages
+site:w3schools.com intitle:login
+intitle:login
+intitle:login site:*.gov.in //in is india * for all
+admin admin123
+php or sql db - no need of username and passwd
+intitle:login site:*.gov.in inurl:login
+robots.txt
+sqlmap.xml
+site:zomato.com filetype:xml
+
+https://aws.amazon.com/robots.txt
+disallow -> has login page -> adminis access 
+if we get admin page -> we can do anything 
+admin -> root priv
+robots.txt and sqlmap.xml
+tcp -> send and respond back - all data 
+udp -> just send , dont wait for response 
+osi model
+encryption
+translation
+compression
+3 processes 1010 encrypt compress presentation layer
+macchanger ---//very imp
+tcp ip model // 4 layers only
+1st is physical layer
+osi model - 7 layers
+tcp ip - 4 layers
+automatic reloading - tcp
+https://www.exploit-db.com/exploits/1518
+---------------------------
+what is networking
+intro to lan
+john --wordlist=/usr/share/wordlists/rockyou.txt hash.txt
+Traceroute
+whoislookup
+The harvester
+shodan
+password is password123
+camera is alsoon the wifi of workshop-1
+//germany webcam
+mr robots rubberducky
+hardware -usb rubber ducky - hak5
+flipperzero-> can access atm pin, change petrol price ,etc...
+------------------------------------------
+https://tryhackme.com/room/introtoresearch
+Crawlers /spiders
+alphazero
+Indexing is the process by which search engines organize information before a search to enable super-fast responses to queries
+https://web.dev/ -> google's site analyser
+Robots.txt works on a "blacklisting" basis
+Crawlers also know the differences between sub-directories, directories and files. 
+allowed to index the entire site ("Allow: /")
+"msnbot" is not allowed to index the site (Disallow: /")
+https://www.rexegg.com/regex-quickstart.html 
+clone it
+03
+wafw00f amazon.com //checking if a website has firewall + other details or they have a different firewall system ...for facebook find the firewall of meta. 
+netcraft https://www.netcraft.com/tools/ also for finding sub domains 
+Amazon vulnerability research program -hackerone
+shodan - for accessing webcams
+rdp
+shodan.io room
+passive reconnaisance
+dnsdumpster.com
+open source intelligence for networks
+more scope - more chance to attack
+new company - large website
+kevin mitnick
+HACK.CHAT/?{CYBER}
+http://hack.chat/?(cyber)
+port 143 -imap
+-----------------------------------
+Key Logger - hardware and software
+whatever i am typing it will store 
+siant
+anci-keylogger 
+check task manager
+laptop key logger
+skimmer
+https://techiwant.com/flipper-zero-tamagochi-for-hackers/
+-----------------------------------------
+maltego
+search -> maltego
+maltigo -4th one ce
+create an account and login
+--------------------------
+search type : domain
+an internet domain drag and press enter 
+double click on the link
+keep ur login link netflix.com
+run view - footpr lvl1 lvl2 largest scan, lvl1 do it
+footprint l3
+send phishing link to him if he clicks on the link
+netflix is hacked
+example : rahul@netflix.com
+target large network 
+site on darkweb similar to maltego // to get every data 
+entities -> panel present in windows 
+maltego 
+yoni ramon
+michael anderson
+find out everything possible abt the target -> using maltego
+choward@google.com -> relation with christina howard
+PGP keys : 
+theHarvester -d tesla.com -l 300 -b yahoo // to do same thing as maltego using command line //to find emails 
+theHarvester -h //for manual on harvester 
+heHarvester -d tryhackme.com -l 200 -b bing,github-code, //dont give spaces
+Principles of security - room 
+pentesting fundamentals - room
+complete all before
+common attacks
+----------------------------------------
+We should always save the output of our scans - nmap 
+recon-ng 
+marketplace install all
+workspaces
+workspaces create whitehouse
+workspaces load whitehouse
+modules
+modules search 
+modules load recon/domains-contacts/wikileaker
+workspace name module name 
+options list
+options set source nike.com
+modules load recon/companies-contacts/bing_linkedin_cache
+subdomain takeover
+modules search shodan
+back
+hunter - to find email address from any company name or website
+hunter domain search hunter.io
+https://hunter.io/domain-search
+Free 350+ tryhackme rooms
+-------------------------------------------
+modules load reporting/html
+options list
+options set CREATOR appledog
+options set CUSTOMER nike.com
+options set FILENAME /home/
+run
+ctrl+shift+d //for opening another tab
+------------------------------
+
